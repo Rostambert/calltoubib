@@ -20,7 +20,7 @@
         <input type="text" placeholder="Lieu">
         <button type="submit">Rechercher</button>
     </div>
-
+ 
 
     <div id="content">
 

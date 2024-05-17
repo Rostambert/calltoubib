@@ -10,7 +10,7 @@
     <!-- haut de page -->
     <header>
 
-        <h1>Bienvenue sur CALLTOUBIB</h1>
+        
         <!-- menu de navigation -->
         <?php include 'header.php';?>
 
@@ -28,8 +28,8 @@
             <div class="col-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="text-success">Vous êtes praticients ? Inscription</h5>
-                        <form method="POST" action="patient.php">
+                        <h5 class="text-success">Vous êtes praticients ? Inscription </h5>
+                        <form method="POST" action="patient.php" id="FormPraticien">
                             <div class="mb-3">
                               <label class="form-label">Prénom</label>
                               <input type="text" class="form-control" name="prenom">
