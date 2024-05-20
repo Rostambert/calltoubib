@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <!-- haut de page -->
+    
     <?php include 'header.php';?>
 
 
@@ -21,8 +21,8 @@
                         <h5 class="card-title text-success">Vous avez déjà un compte ? </h5>
                         <form method="POST" action="patient.php">
                             <div class="mb-3">
-                                <label class="form-label">Nom d'utilisateur</label>
-                                <input type="text" class="form-control" name="username">
+                                <label class="form-label">Email</label>
+                                <input type="mail" class="form-control" name="email">
                             </div>  
                             <div class="mb-3">
                                 <label class="form-label">Mot de passe</label>
@@ -41,6 +41,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

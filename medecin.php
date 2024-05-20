@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALLTOUBIB - Accueil</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <!-- haut de page -->
-    <header>
-
-        
-        <!-- menu de navigation -->
-        <?php include 'header.php';?>
+    <?php include 'header.php';?>
 
 
         <div class="container mt-3">
@@ -21,15 +17,15 @@
                 <div class="row">
 
                     <h5 class="text-success text-center"><i>CALLTOUBIB vous permet de prendre rendez-vous facilement !</i></h5>
-                    <img src="https://th.bing.com/th/id/OIP.bqePnO69AbwD0sVP9l1CHgHaFs?rs=1&pid=ImgDetMain" class="img-fluid" alt="">
+                    <img src="https://www.allianz.fr/assurances-professionnels-entreprises/ma-protection/m-assurer-en-cas-de-coup-dur/union-nationale-pour-les-interets-de-la-medecine/praticien-hospitalier/_jcr_content/root/stage/stageimage.img.70.3360.jpeg/1580380984950/praticien-hospitalier.jpeg" class="img-fluid" alt="">
 
                 </div>
             </div>
             <div class="col-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="text-success">Vous êtes praticients ? Inscription </h5>
-                        <form method="POST" action="patient.php" id="FormPraticien">
+                        <h5 class="text-success">Vous êtes praticients ? Inscription</h5>
+                        <form method="POST" action="patient.php">
                             <div class="mb-3">
                               <label class="form-label">Prénom</label>
                               <input type="text" class="form-control" name="prenom">
@@ -53,6 +49,10 @@
                             <div class="mb-3">
                                 <label class="form-label">Mot de passe</label>
                                 <input type="password" class="form-control" name="password">
+                            </div>
+                            <div>
+                            
+                            <a class="text-success" href="login.php"> Vous avez déjà un compte ?</a>
                             </div>
 
                             <div class="float-end">
