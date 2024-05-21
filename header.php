@@ -8,7 +8,7 @@
         <li class="btn"><a href="patient.php">Patient</a></li>
         <li class="btn"><a href="medecin.php">Praticien</a></li>
         <li class="btn"><a href="login.php">Connexion</a></li>
-        <li class="btn"><a href="#">Contact</a></li>
+        <li class="btn"><a href="contact.php">Contact</a></li>
     </ul>
 </nav>
 </header>
