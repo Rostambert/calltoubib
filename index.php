@@ -24,7 +24,7 @@
 
     <div id="content">
 
-        <marquee direction="left" scrollamount="2">CALLTOUBIB est votre plateforme fiable pour prendre des rendez-vous médicaux, donner votre avis, et gérer votre agenda médical</marquee>
+        <marquee direction="left" scrollamount="10">CALLTOUBIB est votre plateforme fiable pour prendre des rendez-vous médicaux, donner votre avis, et gérer votre agenda médical</marquee>
 
 
     </div>

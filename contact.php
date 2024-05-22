@@ -9,19 +9,19 @@
 
 </head>
 <body class='contact'>
-
-
+                  
+    
     <?php include 'header.php';?>
     <div class="container mt-3"  >
         <div class="row justify-content-center">
             <div class="col-4">
                 <div class="card">
                     <div class="card-body">
+                    <h5 class="card-title text-success">Vous cherchez à nous contactez ? </h5>
                     <h6 class="card-title text-success">Numéro d'Urgence: </h6>
                     <p>07282826</p>
                     <h6 class="card-title text-success">Adresse mail: </h6>
-                    <p>Contact.CallToubib@gmail.com</p>
-
+                   <input type="text" name="email" placeholder="votre email" />
                     <select name="maliste">
   <option value="Urgence">Urgence</option>
   <option value="crise">Crise d'angoisse</option>
@@ -32,7 +32,10 @@
   <option value="hemorragie">Hémorragie cérébrale</option>
 
   </select>
-
+  <div class="float-end">
+                                <button type="submit" class="btn btn-success">Envoyer</button>
+                            </div>
+  
                         </form>
 
                     </div>
@@ -51,4 +54,3 @@
 
 </body>
 </html>
-<select>

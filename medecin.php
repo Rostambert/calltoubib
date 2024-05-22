@@ -56,7 +56,7 @@
                             </div>
 
                             <div class="float-end">
-                                <button type="submit" class="btn btn-success">Enregistrer</button>
+                                <button type="submit" class="btn btn-success">S'inscrire</button>
                             </div>
                         </form>
                         
